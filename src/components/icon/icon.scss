@@ -1,0 +1,44 @@
+svg {
+    &.medium {
+      width: 24px;
+      height: 24px;
+    }
+  
+    &.small {
+      width: 16px;
+      height: 16px;
+    }
+    &.large {
+      width: 30px;
+      height: 30px;
+    }
+  
+    &.white-icon{
+      color: var(--white);
+    }
+
+    &.yellow-icon{
+      color: rgb(170, 193, 0);
+    }
+  
+    &.grey-icon{
+      color: grey;
+    }
+  
+    &.icon-color{
+      color: var(--theme-color);
+    }
+  
+    &.panel-theme-color{
+      color: var(--merchant-panel-color);
+    }
+  
+    &.backbtn{
+      cursor: pointer;
+    }
+  
+    &.translator{
+      cursor: pointer;
+    }
+  }
+  

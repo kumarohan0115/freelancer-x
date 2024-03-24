@@ -1,0 +1,20 @@
+{
+    "name": "Crescent",
+    "designation": "a product designer from San Francisco",
+    "about":"I am a product designer from San Francisco. I have a passion for creating beautiful and functional designs. I have experience working with startups and large companies to create products that are user-friendly and visually appealing. I am always looking for new opportunities to collaborate with talented teams and create amazing products.",
+    "imageUrl": "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "links": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/crescent"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://dribbble.com/crescent"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/crescent"
+        }
+    ]
+}
