@@ -1,0 +1,52 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Company A",
+            "city": "City A",
+            "country": "Country A",
+            "role": "Role A",
+            "joinDate": "2018-01-01",
+            "tillDate":"2018-12-31",
+            "email": "companya@example.com",
+            "workDescription": "Work Description A",
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+        },
+        {
+            "id": 2,
+            "name": "Company B",
+            "city": "City B",
+            "country": "Country B",
+            "role": "Role B",
+            "joinDate": "2019-01-01",
+            "tillDate":"2019-12-31",
+            "email": "companya@example.com",
+            "workDescription": "Work Description B",
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+        },
+        {
+            "id": 3,
+            "name": "Company C",
+            "city": "City C",
+            "country": "Country C",
+            "role": "Role C",
+            "joinDate": "2020-01-01",
+            "tillDate":"2020-12-31",
+            "email": "companyc@example.com",
+            "workDescription": "Work Description C",
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+        },
+        {
+            "id": 4,
+            "name": "Company D",
+            "city": "City D",
+            "country": "Country D",
+            "role": "Role D",
+            "joinDate": "2021-01-01",
+            "tillDate":"2021-12-31",
+            "email": "companyd@example.com",
+            "workDescription": "Work Description D",
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+        }
+    ]
+}

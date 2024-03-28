@@ -3,6 +3,8 @@ import Navbar from '../../components/navbar/navbar'
 import About from '../../components/about/about'
 import ProfilePicture from '../../components/profile-picture/profile-picture'
 import TechStack from '../../components/tech-stack/tech-stack'
+import Experience from '../../components/experience/experience'
+import Footer from '../../components/footer/footer'
 
 const Home:React.FC = () => {
   return (
@@ -11,6 +13,8 @@ const Home:React.FC = () => {
         <ProfilePicture/>
         <TechStack/>
         <About/>
+        <Experience/>
+        <Footer/>
     </div>
   )
 }
