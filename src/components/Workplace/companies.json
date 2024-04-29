@@ -10,7 +10,16 @@
             "tillDate":"2018-12-31",
             "email": "companya@example.com",
             "workDescription": "Work Description A",
-            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"],
+            "designation":"FrontEnd Developer",
+            "companyLogo": "https://www.nxt.pe/assets/nxtpeLogo.png",
+            "techStack": ["React","Redux","AWS", "Node.js"],
+            "workExperience": [
+                "Software Engineer Intern at Tech Makers, Summer 2017.",
+                "Worked on a project to develop an online platform for learning coding languages. Implemented features such as user",
+                "Worked on CI/CD pipeline",
+                "Implemented a new feature for user authentication."
+            ]
         },
         {
             "id": 2,
@@ -22,7 +31,16 @@
             "tillDate":"2019-12-31",
             "email": "companya@example.com",
             "workDescription": "Work Description B",
-            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"],
+            "designation":"FrontEnd Developer",
+            "companyLogo": "https://www.nxt.pe/assets/nxtpeLogo.png",
+            "techStack": ["React","Redux","AWS", "Node.js"],
+            "workExperience": [
+                "Software Engineer Intern at Tech Makers, Summer 2017.",
+                "Worked on a project to develop an online platform for learning coding languages. Implemented features such as user",
+                "Worked on CI/CD pipeline",
+                "Implemented a new feature for user authentication."
+            ]
         },
         {
             "id": 3,
@@ -34,7 +52,16 @@
             "tillDate":"2020-12-31",
             "email": "companyc@example.com",
             "workDescription": "Work Description C",
-            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"],
+            "designation":"FrontEnd Developer",
+            "companyLogo": "https://www.nxt.pe/assets/nxtpeLogo.png",
+            "techStack": ["React","Redux","AWS", "Node.js"],
+            "workExperience": [
+                "Software Engineer Intern at Tech Makers, Summer 2017.",
+                "Worked on a project to develop an online platform for learning coding languages. Implemented features such as user",
+                "Worked on CI/CD pipeline",
+                "Implemented a new feature for user authentication."
+            ]
         },
         {
             "id": 4,
@@ -46,7 +73,16 @@
             "tillDate":"2021-12-31",
             "email": "companyd@example.com",
             "workDescription": "Work Description D",
-            "projectsTechStack": ["React", "Node", "Express", "MongoDB"]
+            "projectsTechStack": ["React", "Node", "Express", "MongoDB"],
+            "designation":"FrontEnd Developer",
+            "companyLogo": "https://www.nxt.pe/assets/nxtpeLogo.png",
+            "techStack": ["React","Redux","AWS", "Node.js"],
+            "workExperience": [
+                "Software Engineer Intern at Tech Makers, Summer 2017.",
+                "Worked on a project to develop an online platform for learning coding languages. Implemented features such as user",
+                "Worked on CI/CD pipeline",
+                "Implemented a new feature for user authentication."
+            ]
         }
     ]
 }

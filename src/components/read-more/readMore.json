@@ -1,0 +1,14 @@
+{
+    "companyName": "TechMakers",
+    "designation":"FrontEnd Developer",
+    "companyLogo": "https://www.nxt.pe/assets/nxtpeLogo.png",
+    "techStack": ["React","Redux","AWS", "Node.js"],
+    "workExperience": [
+        {
+            "Line1": "Software Engineer Intern at Tech Makers, Summer 2017.",
+            "Line2": "Worked on a project to develop an online platform for learning coding languages. Implemented features such as user",
+            "Line3": "Worked on CI/CD pipeline",
+            "Line4": "Implemented a new feature for user authentication."
+        }
+    ]
+}

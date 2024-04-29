@@ -11,9 +11,9 @@ const ProfilePicture: React.FC = () => {
             <span><img src={userData.imageUrl} alt="profile" /></span>
             <div className='w-[200px] my-6 flex justify-between '>
             {
-                 userData.links.map((social) => {
+                 userData.links.map((social,ind) => {
                     return (
-                        <a href={social.url} target="_blank" rel="noreferrer" className=''>
+                        <a href={social.url} key={ind} target="_blank" rel="noreferrer" className=''>
                             <Icon name={social.name} customClass='hover:text-social_link_hover_color' />
                         </a>
                     )
