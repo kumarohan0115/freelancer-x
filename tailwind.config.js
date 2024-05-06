@@ -18,6 +18,9 @@ module.exports = {
       text: "#ffffff",
       social_link_hover_color: "#CCA700",
       a_hover_color:"#616161",
+      bg_color:"#1c1c1c",
+      shadow_color:"#c3c3c3",
+      alpa_bg_color:"#1c1c1c34"
     }
   },
   plugins: [],

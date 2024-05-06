@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import companyData from './companies.json'
+import companyData from '../../constants/companies.json'
 import Icon from '../icon/icon'
 import ReadMore from '../read-more/readmore'
 
@@ -26,10 +26,10 @@ const Workplace: React.FC = () => {
                                 <span>{companies.joinDate} - {companies.tillDate}</span>
                             </div>
                             <div>
-                                <ul className='flex gap-4'>
+                                <ul className='flex gap-1'>
                                     {
                                         companies.projectsTechStack.map((pts, i) => (
-                                            <li key={i} >{pts}</li>
+                                            <li key={i} className='whitespace-nowrap' >{i===0?'':','} {pts}</li>
                                         ))
                                     }
                                 </ul>

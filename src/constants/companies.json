@@ -1,0 +1,79 @@
+{
+    "name": "Rohan Kumar",
+    "designation": "React Js|Ts Frontend Developer",
+    "about": "I am Frontend Developer with 1 yr+ industry experience, largely worked on React Application, including handling of FinTech. Love to contribute in your idea & make it real together.",
+    "profileImageUrl": "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "links": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/rohan-kumar-b75786185/"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/kumarohan0115"
+        }
+    ],
+    "contact":[
+        {
+            "label":"Email",
+            "value":"rohankr350@gmail.com"
+        },
+        {
+            "label":"Contact No.",
+            "value":"8368519963"
+        }
+    ],
+    "details": "A Software Engineer with experience across web and mobile using React, JavaScript and Typescript, having passion for creating and designing products in a test- driven environment.",
+    "title": "About",
+    "imageUrl": "https://assets-global.website-files.com/604a9ef31adfc62f325eb2f7/604ac2b5aff1003d4924d061_image-home-about-portfolio-y-template-p-800.jpeg",
+    "techLanguage": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "React Js | Ts",
+        "Bootstrap",
+        "Jquery",
+        "Tailwind"
+    ],
+    "companies": [
+        {
+            "id": 1,
+            "name": "Nxtpe",
+            "city": "Delhi",
+            "country": "India",
+            "role": "SDE-1",
+            "joinDate": "2023-03-01",
+            "tillDate": "Present",
+            "email": "rohan@nxt.pe",
+            "workDescription": "Frontend React Js Developer.",
+            "projectsTechStack": [
+                "React Ts",
+                "JavaScript",
+                "Redux",
+                "Tailwind",
+                "SCSS",
+                "AWS S3",
+                "Cypress"
+            ],
+            "designation": "Frontend React Js Developer.",
+            "companyLogo": "https://www.nxt.pe/assets/nxtpeLogo.png",
+            "techStack": [
+                "React Ts",
+                "JavaScript",
+                "Redux",
+                "Tailwind",
+                "SCSS",
+                "AWS S3",
+                "Cypress"
+            ],
+            "workExperience": [
+                "Developed a web-based internal management panel using React, TypeScript and Redux for state management.",
+                "Created a record viewer component that can display columns and rows dynamically with filter options.",
+                "Implemented user management features and set up permissions and roles for different widgets.",
+                "Designed and built theme-based checkout pages with polling functionality for async tasks Crafted landing pages for the main website.",
+                "Managed the deployment process of projects using S3 static site hosting and Cloudfront for asset caching."
+            ]
+        }
+    ]
+}
