@@ -5,7 +5,7 @@ const TechStack: React.FC = () => {
 
     return (
         <div className='my-28'>
-            <h1 className='text-5xl p-6'>Tech Stack</h1>
+            <h1 className='text-4xl sm:text-5xl p-6'>Tech Stack</h1>
             <div className='flex gap-6 flex-wrap w-full'>
                 {
 

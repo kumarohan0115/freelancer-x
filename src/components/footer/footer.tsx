@@ -1,12 +1,11 @@
 import React from 'react';
-import Icon from '../icon/icon';
 import ContactForm from '../contact/contactus'
 import companies from '../../constants/companies.json'
 const Footer: React.FC = () => {
   return (
     <footer className='border-t-2 border-gray-400 mt-6 py-6 relative'>
       <div className="footer-top my-[2rem]">
-        <h2 className='text-5xl my-2'>Contact</h2>
+        <h2 className='text-4xl sm:text-5xl my-2'>Contact</h2>
         <p>I would love to be in touch with you!</p>
       </div>
 
@@ -14,8 +13,8 @@ const Footer: React.FC = () => {
         {
           companies.contact.map((ele,i)=>{
               return <div key={i}>
-                <label className='text-2xl'>{ele.label}: </label>
-                <span className='text-2xl'>{ele.value}</span>
+                <label className='text-1xl sm:text-2xl'>{ele.label}: </label>
+                <span className='text-1xl sm:text-2xl'>{ele.value}</span>
               </div>
           })
         }

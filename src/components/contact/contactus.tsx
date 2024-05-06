@@ -7,15 +7,15 @@ const ContactForm:React.FC=()=> {
     return <p className='text-3xl'>Thanks for Contacting.</p>;
   }
   return (
-    <form action='https://formspree.io/f/xnqewrpk' onSubmit={handleSubmit} className='w-full py-8 flex justify-between gap-4'>
+    <form action='https://formspree.io/f/xnqewrpk' onSubmit={handleSubmit} className='w-full py-8 flex flex-col gap-6 sm:flex sm:flex-row justify-between'>
       <div className='flex flex-col gap-4'>
-        <div className='w-[400px] flex flex-col'>
+        <div className='w-full sm:w-[400px] flex flex-col'>
           <label htmlFor='name' className='text-left'>Name</label>
-          <input className='px-4 py-1 bg-bg_color border-b-[1px]' type="text" name="name" id="name" />
+          <input className='px-4 py-1 bg-bg_color border-b-[1px] sm:w-full sm:px-0' type="text" name="name" id="name" />
         </div>
-        <div className='w-[400px] flex flex-col'>
+        <div className='w-full sm:w-[400px] flex flex-col'>
           <label htmlFor='email' className='text-left'>Email Address</label>
-          <input className='px-4 py-1 bg-bg_color border-b-[1px]' type="email" name="email" id="email" />
+          <input className='px-4 py-1 bg-bg_color border-b-[1px] sm:w-full sm:px-0' type="email" name="email" id="email" />
         </div>
       </div>
       <div className='flex flex-col'>

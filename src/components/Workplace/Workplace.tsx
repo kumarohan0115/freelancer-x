@@ -26,10 +26,10 @@ const Workplace: React.FC = () => {
                                 <span>{companies.joinDate} - {companies.tillDate}</span>
                             </div>
                             <div>
-                                <ul className='flex gap-1'>
+                                <ul className='sm:flex flex-wrap flex gap-1'>
                                     {
                                         companies.projectsTechStack.map((pts, i) => (
-                                            <li key={i} className='whitespace-nowrap' >{i===0?'':','} {pts}</li>
+                                            <li key={i} className='whitespace-nowrap' >{pts}{i!==companies.projectsTechStack.length-1?',':''}</li>
                                         ))
                                     }
                                 </ul>
